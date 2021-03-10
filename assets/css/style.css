@@ -937,11 +937,20 @@ box-shadow: 3px 4px 15px -5px rgba(0,0,0,0.35);
   font-weight: 300;
 }
 
+.pricing .stay ul {
+  padding: 0;
+  list-style:none;
+  color: #444444;
+  text-align: left;
+  line-height: 20px;
+  font-size: 14px;
+}
 .pricing ul {
   padding: 0;
-  list-style: none;
+    padding-left:20px;
+  list-style:disc;
   color: #444444;
-  text-align: center;
+  text-align: left;
   line-height: 20px;
   font-size: 14px;
 }

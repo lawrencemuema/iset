@@ -11,7 +11,8 @@
 .text-w {
   margin-left: 5%;
   transform: translate3d(0, 0rem, 0);
-  animation: text-w 1150ms ease-in infinite;
+/*  animation: text-w 900ms ease-in infinite;*/
+    animation-delay: 450ms;
 }
 .text-a {
   margin-left: 11%;
@@ -19,11 +20,11 @@
 }
 .text-v {
   margin-left: 22%;
-  animation-delay: 680ms;
+  animation-delay: 450ms;
 }
 .text-e {
   margin-left: 35%;
-  animation-delay: 860ms;
+  animation-delay: 450ms;
 }
 .delay {
   animation-delay: 1050ms;
